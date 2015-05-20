@@ -5,20 +5,20 @@ Quick Manny is a sleek and simple way to make an online manual. It was created i
 ## Adding New Header Listings
 
 - No classes necessary. Just simply add to the unordered list inside <nav>.
-- Wrap Articles or sub-items in <em> tag to make italicized style.
+- Wrap Articles or sub-items in `<em>` tag to make italicized style.
 
 ## Creating New Categories and Articles
 
-- Add <div> id tags on all <h1> and <h2> elements for page linking.
-- Use an <h1> tag with the class of ".category" for new category headings.
-- Begin adding an article by making a <div> tag that will wrap your content. Give the <div> a class of ".article" for proper styling.
-- Use <h2> tag for all article headings.
+- Add `<div>` id tags on all `<h1>` and `<h2>` elements for page linking.
+- Use an `<h1>` tag with the class of ".category" for new category headings.
+- Begin adding an article by making a `<div>` tag that will wrap your content. Give the `<div>` a class of ".article" for proper styling.
+- Use `<h2>` tag for all article headings.
 
 ## Utility Classes
 
 - For all images add the class ".img-responsive" to make images responsive.
-- Use a <span class="darken"> to change default type color to dark gray.
-- Use a <span class="text-right"> to right-align paragraph text on the same line.
+- Use a `<span class="darken">` to change default type color to dark gray.
+- Use a `<span class="text-right">` to right-align paragraph text on the same line.
 - The class ".img-rounded" adds a simple rounded corner to the image.
 
 ### Creators
