@@ -1,0 +1,146 @@
+/*!
+ * Quick Manny v1.0 (http://github.com)
+ * Copyright 2015 Marathon Technology Group.
+ * Licensed under MIT (https://github.com)
+ */
+
+/*
+ * Page Layout
+ */
+
+body {
+  margin: 0;
+  padding: 60px;
+  font-family: Georgia, serif;
+}
+
+.container {
+  margin-left: 40%;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 250px;
+    width: 384px;
+  }
+}
+
+header { position: fixed; }
+
+@media (max-width: 768px) {
+  header { position: absolute; }
+}
+
+ul {
+  list-style-type: disc;
+  line-height: 28px;
+  color: gainsboro;
+}
+
+ul > li > ul > li { margin-left: -20px; }
+
+/*
+ * Scaffolding and Type
+ */
+
+a:link,
+a:active,
+a:visited {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+.masthead {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  color: #333;
+}
+
+.masthead a:link,
+.masthead a:active,
+.masthead a:visited { color: #333; }
+
+nav { font-size: 20px; }
+
+p { font-size: 18px; }
+
+h1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: dodgerblue;
+}
+
+.keywords {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: gainsboro;
+}
+
+.category::after {
+  position: absolute;
+  margin-left: 15px;
+  content: url('../img/icons/category-icon.png');
+}
+
+.article {
+  padding: 30px;
+  margin-top: 30px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+}
+
+.article::before {
+  position: absolute;
+  margin-top: -38px;
+  content: url('../img/icons/article-icon.png');
+}
+
+/*
+ * Utility Classes
+ */
+
+.darken { color: #333; }
+
+.img-responsive {
+  max-width: 100%;
+  display:block;
+  height: auto;
+}
+
+.img-rounded { border-radius: 8px; }
+
+.text-right {
+  text-align: right;
+  float: right;
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 42px;
+  width: 100%;
+  background: #eee;
+}
+
+@media (max-width: 768px) {
+  .footer { visibility: hidden; }
+}
+
+.footer-text {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
