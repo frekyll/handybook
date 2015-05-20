@@ -34,6 +34,4 @@ Quick Manny is a sleek and simple way to make an online manual. It was created i
 
 ### Copyright and License
 
-Code and documentation copyright 2015 [Marathon Technology Group](https://www.marathontechgroup.com/). Code released under [the MIT License](https://github.com/frekyll/quick-manny/blob/gh-pages/LICENSE).
-
-Icons by [Font Awesome](http://fontawesome.io) released under [the MIT License](http://fontawesome.io/license).
+Code and documentation copyright 2015 [Marathon Technology Group](https://www.marathontechgroup.com/). Code released under [the MIT License](https://github.com/frekyll/quick-manny/blob/gh-pages/LICENSE). Icons by [Font Awesome](http://fontawesome.io) released under [the MIT License](http://fontawesome.io/license).
