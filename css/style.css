@@ -9,7 +9,7 @@
 body {
   margin-bottom: 60px;
   padding: 60px;
-  max-width: 2000px;
+  max-width: 1080px;
   font-family: Georgia, serif;
 }
 
@@ -20,13 +20,14 @@ body {
 .header {
   position: fixed;
   width: 30%;
-  max-width: 768px;
+  max-width: 360px;
 }
 
 @media (max-width: 768px) {
   .header {
     position: relative;
     width: 100%;
+    max-width: 100%;
   }
 }
 
