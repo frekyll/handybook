@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags must come first in the head. -->
- 
-    <title>Quick Manny • A sleek and simple hypertext manual template.</title>
 
-    <!-- Custom Styles -->
+    <!-- Add favicon to the public folder. -->
+    <link rel="icon" type="image/png" href="public/favicon.png"/>
+
+    <title>Handybook • A sleek and simple manual template.</title>
+
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    <!-- Begin Fixed Header -->
-    <header>
-      <h1 class="masthead"><a href="#">Manual Name</a></h1>
-      <nav>
+    <div class="header">
+      <h1 class="masthead"><a href="#">Handybook</a></h1>
+      <div class="summary">
+        <p>Handybook is a sleek and simple manual template for the web. It was created by <a href="https://twitter.com/frekyll">Josh Wenning</a> and <a href="https://github.com/aegis41">Anthony Gaff</a> as an internal tool for Marathon Technology Group.</p>
+        <button onclick="window.location.href='https://github.com/frekyll/handybook'" type="button" class="button">Learn more on GitHub</button>
+      </div>
+      <div class="nav">
         <ul>
           <li><a href="#category-one">Category One</a>
             <ul>
-              <li><a href="#article-one"><em>Article One</em></a></li>
-              <li><a href="#article-two"><em>Article Two</em></a></li>
-            </ul>
-          </li>
-          <li><a href="#category-two">Category Two</a>
-            <ul>
-              <li><a href="#article-three"><em>Article Three</em></a></li>
+              <li><a href="#article-one">Article One</a></li>
             </ul>
           </li>
         </ul>
-      </nav>
-    </header> <!-- End Fixed Header -->
+      </div>
+    </div>
 
-    <div class="container">
+    <div class="main">
       <!-- Begin New Category -->
       <h1 id="category-one" class="category">Category One</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
       <!-- Begin New Article -->
       <div id="article-one" class="article">
@@ -43,34 +44,16 @@
         <p class="keywords"><span class="darken">Keywords:</span> keywords, another, example</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <img src="http://placehold.it/960x600" alt="Article Image" class="img-responsive img-rounded">
-        <p class="keywords"><span class="darken">Author:</span> Josh Wenning <span class="text-right"><span class="darken">Last Revised:</span> 01/01/2015</span></p>
-      </div> <!-- End Article -->
+        <p class="author"><span class="darken">Author:</span> Josh Wenning</p>
+        <p class="date"><span class="darken">Last Revised:</span> 01/01/2015</p>
+      </div>
+      <!-- End Article -->
+    </div>
 
-      <!-- Begin New Article -->
-      <div id="article-two" class="article">
-        <h2>Article Two</h2>
-        <p class="keywords"><span class="darken">Keywords:</span> keywords, another, example</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="keywords"><span class="darken">Author:</span> Josh Wenning <span class="text-right"><span class="darken">Last Revised:</span> 01/01/2015</span></p>
-      </div> <!-- End Article -->
-
-      <!-- Begin New Category -->
-      <h1 id="category-two" class="category">Category Two</h1>
-
-      <!-- Begin New Article -->
-      <div id="article-three" class="article">
-        <h2>Article Three</h2>
-        <p class="keywords"><span class="darken">Keywords:</span> keywords, another, example</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img src="http://placehold.it/960x600" alt="Article Image" class="img-responsive img-rounded">
-        <p class="keywords"><span class="darken">Author:</span> Josh Wenning <span class="text-right"><span class="darken">Last Revised:</span> 01/01/2015</span></p>
-      </div> <!-- End Article -->
-    </div> <!-- End Container -->
-
-    <!-- Begin Footer -->
-    <footer class="footer">
-      <p class="footer-text">&copy; 2015 <a href="http://www.marathontechgroup.com">Marathon Technology Group</a>. Released under the <a href="https://github.com/frekyll/quick-manny/blob/gh-pages/LICENSE">MIT License</a>. <span class="text-right"> <a href="#">Back To Top</a></span></p>
-    <footer> <!-- End Footer -->
+    <div class="footer">
+      <p class="footer-text-left">&copy; 2015 Marathon Technology Group</p>
+      <p class="footer-text-right"><a href="#">Back To Top</a></p>
+    </div>
 
   </body>
 </html>
