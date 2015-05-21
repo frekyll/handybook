@@ -1,6 +1,6 @@
-# Quick Manny
+# Handybook
 
-Quick Manny is a sleek and simple way to make an online manual. It was created internally at [Marathon Technology Group](https://www.marathontechgroup.com) by [Josh Wenning](https://twitter.com/frekyll).
+Handybook is a sleek and simple way to make an online manual. It was created internally at [Marathon Technology Group](https://www.marathontechgroup.com) by [Josh Wenning](https://twitter.com/frekyll).
 
 ## Adding New Header Listings
 
